@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+        
+        <section style="width:50%;margin-top:3rem; margin-left:auto;margin-right:auto;">
+            <h1 style="font-size: 2rem; text-align:center">
+               <span style="color: #7e12f9;">Registration</span> Form
+            </h1>
+            <form action="">
+            <div style="padding: 15px;box-shadow: rgba(41,180,117,.16) 0px 1px 4px;">
+                <table cellspacing="5" cellpadding="10">
+                    <!-- first Input -->
+                    <tr>
+                        <td colspan="1" style="padding-right:2rem;">
+                            <label for="fullname">Full Name*</label>
+                            <br>
+                            <br>
+                            <input style="padding: 10px 25px; width:18rem;border-radius:5px;border:1px solid grey;outline:none" name="fullName" required type="text" placeholder="Enter Full Name">
+                        </td>
+                        
+                        <td colspan="1">
+                            <label for="email">Email*</label>
+                            <br>
+                            <br>
+                            <input style="padding: 10px 25px; width:18rem; border-radius:5px; border:1px solid grey;outline:none" name="email" type="email" required placeholder="Enter Email">
+                        </td>
+                    </tr>
+                    <!-- second Input -->
+                    <tr>
+                        <td colspan="2" style="padding-right:2rem;">
+                            <label for="SelectCourses">Select Course*</label>
+                            <br>
+                            <br>
+                            <select name="SelectCourses" required style="padding: 10px 25px; width:103%;border-radius:5px;border:1px solid grey;outline:none">
+                                <option style="color: grey;" disabled hidden selected>
+                                    Select Courses
+                                </option>
+                                <option value="Full Stack Web Development">
+                                    Full Stack Web Development
+                                </option>
+                                <option value="Advance Web Development">
+                                    Advance Web Development
+                                </option>
+                                <option value="Machine Learning">
+                                    Machine Learning
+                                </option>
+                                <option value="BlockChain">
+                                    BlockChain
+                                </option>
+                                <option value="Cloud Computing">
+                                    Cloud Computing
+                                </option>
+                            </select>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="1" style="padding-right:2rem;">
+                            <label for="phoneNo">Phone No.*</label>
+                            <br>
+                            <br>
+                            <input required style="padding: 10px 25px; width:18rem;border-radius:5px;border:1px solid grey;outline:none" name="phoneNo" type="tel">
+                        </td>
+                        
+                        <td colspan="1" >
+                            <label for="Selecthighestdegree">Select highest degree*</label>
+                            <br>
+                            <br>
+                            <select name="Selecthighestdegree" required style="padding: 10px 25px; width:100%;border-radius:5px;border:1px solid grey;outline:none">
+                                <option style="color: grey;" selected disabled hidden>
+                                    Select highest degree
+                                </option>
+                                <option value="B.E or B.Tech CS/IT">
+                                    B.E or B.Tech CS/IT
+                                </option>
+                                <option value="B.E or B.Tech Other">
+                                    B.E or B.Tech Other
+                                </option>
+                                <option value="M.S or M.Tech CS/IT">
+                                    M.S or M.Tech CS/IT
+                                </option>
+                                <option value="M.S or M.Tech Other">
+                                    M.S or M.Tech Other
+                                </option>
+                                <option value="BCA">
+                                    BCA
+                                </option>
+                                <option value="MCA">
+                                    MCA
+                                </option>
+                                <option value="Other">
+                                    Other
+                                </option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <td colspan="1" >
+                            <label for="YearofCompletion">Year of Completion*</label>
+                            <br>
+                            <br>
+                            <select name="YearofCompletion" required style="padding: 10px 25px; width:100%;border-radius:5px;border:1px solid grey;outline:none">
+                                <option style="color: grey;" selected disabled hidden>
+                                    Year of Completion*
+                                </option>
+                                <option value="2018">
+                                    2018
+                                </option>
+                                <option value="2019">
+                                    2019
+                                </option>
+                                <option value="2020">
+                                    2020
+                                </option>
+                                <option value="2021">
+                                    2021
+                                </option>
+                                <option value="2022">
+                                    2022
+                                </option>
+                                <option value="2023">
+                                    2023
+                                </option>
+                                <option value="Other">
+                                    Other
+                                </option>
+                            </select>
+                        
+                        <td colspan="1" >
+                            <label for="ProgrammingSkills">Programming Skills*</label>
+                            <br>
+                            <br>
+                            <select  name="ProgrammingSkills" required style="padding: 10px 25px; width:100%;border-radius:5px;border:1px solid grey;outline:none">
+                                <option style="color: grey;" selected disabled hidden>
+                                    Programming Skills
+                                </option>
+                                <option value="No Coding Skills">
+                                    No Coding Skills
+                                </option>
+                                <option value="Basic Coding Skills">
+                                    Basic Coding Skills
+                                </option>
+                                <option value="Intermidiate Coding Skills">
+                                    Intermidiate Coding Skills
+                                </option>
+                                <option value="Good Coding Skills">
+                                    Good Coding Skills
+                                </option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <td>
+                             &nbsp;&nbsp;<input type="radio" name="gender" value="Male">
+                             <label for="html">Male</label><br>
+                             <input type="radio"  name="gender" value="Female">
+                             <label for="css">Female</label><br>
+                             <input type="radio"  name="gender" value="Other">
+                             <label for="javascript">Other</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input required name="termsAndConditions" type="checkbox"><span>By signing up, you agree to the <span style="color: #7e12f9;">Terms and Conditions</span> of Geekster (QuantumBit technologies Pvt. Ltd)*.</span>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                       <td>
+                        <input onclick="getFormData()" required class="sumbitBtn" type="submit" style="padding: 8px 25px; background-color:
+                        #7e12f9; color:White; border:none;font-weight:700; box-shadow:0 0 10px ; border-radius:10px;font-size:1.2rem;cursor:pointer">
+                       </td>
+                    </tr>
+                </table>
+            </div>
+            </form>
+            <br>
+            <br>
+        </section>
+    
+</body>
+<script>
+    var jsonData={}
+    var form= document.getElementsByTagName("form");//get the form Element
+    
+    // Function that should be triggered when the sumbit button is clicked
+    let getFormData=()=>{
+        event.preventDefault() //to prevent page from reloading
+        let formData= new FormData(form[0])// returns us an array of all the inputs fields Name and value
+            
+            formData.forEach(function(value, key){// mapping through the form data and storing it in object i.e 
+                jsonData[key] = value;
+            });
+            console.log(JSON.stringify(jsonData))
+            alert("Json Data Printed in The Console Please Check The Console")
+    }
+    
+
+    
+</script>
+</html>
