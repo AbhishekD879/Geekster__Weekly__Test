@@ -31,7 +31,7 @@ if(parseInt(n)===0){
 
         a=fibonacci_Series[i]+fibonacci_Series[i+1]
 
-        x.push(a)
+        fibonacci_Series.push(a)
 }
 //     console.log(x.slice(0,x.length-2))
         console.log(fibonacci_Series);
