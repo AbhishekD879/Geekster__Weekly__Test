@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.header__right >span{
+    margin: 0 .75rem;
+    font-size: 2.5rem;
+    /* font-family: 'Google Material Icons'; */
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+}
+.header__right > h3{
+    margin-right: 1.5rem;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    color: #5f6368;
+}
+.avatar_container{
+    background: url("./avatar.png");
+    background-position: center;
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+/* .........................................................................mid main............................... */
+main{
+    display: flex;
+    margin: 49px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.mid__left{
+    flex: .74;
+    padding: 1em 3em;
+}
+.mid__left >h1{
+    font-family: 'Google Sans Display',Roboto,Arial,sans-serif;
+    font-size: 2.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 3.25rem;
+    padding-bottom: 0.5em;
+    margin-top: 5rem;
+}
+.mid__left >p {
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    color: #5f6368;
+    max-width: 30rem;
+    padding-bottom: 3em;
+}
+.btn__input__Container{
+    display: flex;
+    margin-bottom: 2.25rem;
+    align-items: center;
+}
+.btn__input__Container >button{
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 14px 15px 14px 12px;
+    font-size: 1rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    border: none;
+}
+.btn__input__Container >button:hover{
+    background-color: rgba(22,37,45,.3)
+}
+.newMeeting__btn >span{
+    margin-right: 8px;
+}
+.input__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .78rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #5f6368;
+    
+}
+.input__container> input{
+    width: 16.5rem;
+    border: none;
+    padding: 0 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #5f6368;
+}
+.input__container > input:focus{
+    outline: none;
+    border: none;
+}
+.btn__input__Container > p{
+    margin-left: 1.5rem;
+    color: #1a73e8;
+    cursor: pointer;
+    font-weight: 500;
+}
+.mid__left__learnMore{
+    letter-spacing: .00625em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #5f6368;
+    margin-top: 1.625rem;
+}
+.mid__left__learnMore >span{
+    color: #1a73e8;
+    cursor: pointer;
+}
+
+/* ...................................................................mid Right................................ */
+
+.mid__Right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+    margin-top: -1rem;
+}
+.mid__Right__imgSliderContainer{
+    text-align: center;
+    margin: 0 1.5rem;
+}
+.mid__Right__imgSliderContainer>h3{
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 2rem;
+    margin-top: 12px
+}
+.mid__Right__imgSliderContainer > p{
+    letter-spacing: .01428571em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+.previous,.next{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3rem;
+    
+}
+.bullet__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.bullet__nav> div{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 4px;
+}
+.bullet__nav__1st{
+    background-color: #1a73e8 !important;
+}
