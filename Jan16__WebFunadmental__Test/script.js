@@ -85,9 +85,9 @@ cells.forEach((cell,index)=>{
                    messege.textContent="Player 1 has Won"
                    counter=0;
                    cells.forEach((cell)=>{
-                       if(cell.textContent===""){
+                       
                         cell.style.pointerEvents="none"
-                       }
+                       
                    })
                 }
                
@@ -99,9 +99,9 @@ cells.forEach((cell,index)=>{
                     messege.textContent="Player 2 has Won";
                     counter=0;
                     cells.forEach((cell)=>{
-                        if(cell.textContent===""){
+                        
                            cell.style.pointerEvents="none"
-                        }
+                        
                     })
                 }
                
