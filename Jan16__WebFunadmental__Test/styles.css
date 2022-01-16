@@ -38,7 +38,7 @@
     font-size: 3rem;
     width: var(--cell__dimension);
     height: var(--cell__dimension);
-    
+    user-select: none;
 }
 .cell:hover{
     background-color:rgba(0, 0, 0, 0.3) ;
