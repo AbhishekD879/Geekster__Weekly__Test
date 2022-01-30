@@ -41,6 +41,9 @@ searchField.addEventListener('input',()=>{
     tableCreator(data)
     
     }).catch((err)=>{
-        console.log(err);
+        let tbody=document.getElementById('tbody')
+        tbody.innerText="No Universities found for given Country"
+        tbody.style.width="100%"
+        tbody.style.textAlign="center"
     })
 })
