@@ -1,3 +1,4 @@
+alert("please wait for data to be fetched after each query")
 let tableCreator=(arr)=>{
     let tbody=document.getElementById('tbody')
     // arr=arr.slice(0,100)
