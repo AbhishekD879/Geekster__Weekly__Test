@@ -1,0 +1,211 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+body{
+    background-color: #fff;
+    height: 100vh;
+}
+header{
+    padding: 15px;
+    font-size: 2rem;
+    background-color: #f8f8f8;
+}
+.container>h1{
+    font-weight: 400;
+    font-size: 3rem;
+    height: 50px;
+    padding: 15px 15px;
+    
+    letter-spacing: 5px;
+
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1170px;
+}
+nav >a{
+    color: #777;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+nav >a:hover{
+    color: #1bbc9b;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#1bbc9b;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer >p{
+    color: #fff;
+    font-size: 1.2rem;
+}
+::-webkit-scrollbar,::-webkit-scrollbar-thumb,::-webkit-scrollbar-track,::-webkit-scrollbar-track-piece{
+    width: 1px;
+}
+.blog{
+    height: 80vh;
+    margin: auto;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    padding: 20px;
+   flex: .7;
+}
+
+.EachBlogTop >h1,.bHead{
+    font-weight: 400;
+    font-size: 2rem;
+    height: 50px;
+    padding: 15px 15px;
+    
+    letter-spacing: 5px;
+
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    color: #337ab7;
+    text-decoration: none;
+}
+.EachBlog{
+    margin-bottom: 1rem;
+}
+.EachBlog >p{
+    color: #777;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.EachBlogTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.EachBlogTop span{
+    margin-right: 3rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.Addblog{
+    height: 80vh;
+    margin: auto;
+    width: 100%;
+    
+    padding: 20px;
+    /* width: 70%; */
+    flex: .3;
+}
+.Addblog > input{
+    display: block;
+    width: 100%;
+    padding: 1rem 1.18rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    border: 2px solid #1bbc9b;
+    font-size: 1.5rem;
+    color: #337ab7;
+
+}
+.Addblog >textarea{
+    margin-top: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+    height: 55vh;
+    overflow-y: scroll;
+    max-height: 55vh;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid #1bbc9b;
+}
+
+.Addblog >textarea:focus,input:focus{
+    outline: none;
+    font-size: 1.5rem;
+    color: #337ab7;
+}
+.addBtn{
+    padding: 1rem 2rem;
+    background-color: #1bbc9b;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 8rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.addBtn:hover{
+    box-shadow: 0 0 10px #1bbc9b;
+}
+.middle{
+    display: flex;
+}
+/* @media (min-width: 1200px){
+    .container {
+        width: 1300px;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+} */
